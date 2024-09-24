@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+    /* background-color: #f4f4f4; */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+}
+
+.navbar .navbar-brand {
+    /* color: #fff; */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-nav .nav-item .dropbtn {
+    /* color: #fff; */
+    background-color: #333;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.navbar .navbar-nav .nav-item .dropbtn:hover {
+    background-color: #555;
+}
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown Item Styles */
+.navbar .dropdown-content .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .dropdown-content .dropdown-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar .dropdown-content .dropdown-item span {
+    font-size: 1rem;
+    color: #333;
+}
+
+.navbar .dropdown-content .dropdown-item:hover {
+    background-color: #ddd;
+}
+
+/* Search Bar */
+.navbar .form-control {
+    width: 200px;
+    border-radius: 0;
+}
+
+.navbar .btn {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.navbar .btn:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
